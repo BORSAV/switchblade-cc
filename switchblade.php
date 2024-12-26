@@ -220,11 +220,11 @@ $postcode = $matches1[1][0];
 
 // Proxy Configuration
 $rp1 = array(
-    1 => '198.23.239.134',
-    2 => '173.211.0.148',
-    3 => '64.137.42.112',
-    4 => '107.172.163.27',
-    5 => '207.244.217.165',
+    1 => 'gljxmcnh:9i4pv4j8lniy@198.23.239.134:6540',
+    2 => 'gljxmcnh:9i4pv4j8lniy@167.160.180.203:6754',
+    3 => 'gljxmcnh:9i4pv4j8lniy@173.0.9.209:5792',
+    4 => 'gljxmcnh:9i4pv4j8lniy@173.0.9.70:5653',
+    5 => 'gljxmcnh:9i4pv4j8lniy@154.36.110.199:6853',
     ); 
     $rpt = array_rand($rp1);
     $rotate = $rp1[$rpt];
